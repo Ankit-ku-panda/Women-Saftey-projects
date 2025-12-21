@@ -1,0 +1,136 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* PAGE STYLING */
+body {
+    background: #fdecec;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #d81b60;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Cartoon Girl Image */
+.hero-image {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-image img {
+    width: 180px;
+    border-radius: 12px;
+    filter: drop-shadow(0 6px 12px rgba(0,0,0,0.2));
+    transition: transform 0.3s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+/* HELPLINE SECTION */
+.helpline {
+    background: #ffe3ed;
+    padding: 18px;
+    width: 330px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.helpline h2 {
+    margin-bottom: 10px;
+    color: #d81b60;
+    font-weight: 700;
+}
+
+/* CARD STYLING */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    width: 330px;
+    margin: 25px auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #d81b60;
+    font-weight: 700;
+}
+
+/* INPUT FIELDS */
+input {
+    width: 92%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #d81b60;
+    box-shadow: 0 0 6px rgba(216, 27, 96, 0.3);
+}
+
+/* BUTTONS */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background: #d81b60;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c2185b;
+}

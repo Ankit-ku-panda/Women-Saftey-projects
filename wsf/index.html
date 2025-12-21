@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety System</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Women Safety Emergency System</h1>
+    </header>
+
+    <main class="container">
+
+        <!-- Login Form -->
+        <section class="card">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="login_email">Email</label>
+                    <input type="email" id="login_email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="login_pass">Password</label>
+                    <input type="password" id="login_pass" placeholder="Enter your password" required>
+                </div>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </section>
+
+        <!-- Register Form -->
+        <section class="card">
+            <h2>Register</h2>
+            <form id="registerForm">
+
+                <div class="form-group">
+                    <label for="reg_name">Full Name</label>
+                    <input type="text" id="reg_name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg_email">Email</label>
+                    <input type="email" id="reg_email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg_phone">Phone</label>
+                    <input type="tel" id="reg_phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg_pass">Password</label>
+                    <input type="password" id="reg_pass" placeholder="Create a password" required>
+                </div>
+
+                <button type="button" onclick="register()">Register</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
