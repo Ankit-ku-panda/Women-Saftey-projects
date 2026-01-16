@@ -129,9 +129,6 @@ Want to improve women safety tech?
 
 ---
 
-## 👨‍💻 Author
-
-**Ankit Kumar Panda**  
 Embedded Systems • Web Development • Safety Tech Enthusiast  
 
 > Building projects that combine technology with real-world impact.
